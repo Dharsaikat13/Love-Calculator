@@ -144,3 +144,37 @@ padding-left:38px;
 width: 9vw;
 
 }
+
+@media screen and (max-width: 375px) {
+    header .container {
+        width: 100%;
+        display: block;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+
+      }
+      .container .header{
+          font-size: 20px;
+          top:0;
+          right:110px;
+      }
+
+      .container .middle form .form-group .form-control_1,.form-control_2{
+          width: 40vw;
+      }
+      .container .btn button{
+          width: 35vw;
+          left: 35%;
+          top: 65%;
+      }
+      .container .output .lovevalue{
+          width: 40vw;
+          left: 35%;
+          top: 80%;
+      }
+      .container .footer{
+          width: 50vw;
+          left: 30%;
+      }
+  }
