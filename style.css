@@ -145,7 +145,7 @@ width: 9vw;
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     header .container {
         width: 100%;
         display: block;
